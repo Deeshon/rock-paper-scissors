@@ -4,11 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="rockpaperscissors.js" defer></script>
     <title>Document</title>
+    <script src="rock.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello</h1>
-    <button id="btn">play game</button>
+    <div class="header"> 
+        <h1>ROCK PAPER SCISSORS</h1>
+    </div>
+
+    <div class="screen">
+        <h1 style="text-align: center;" id="msg">Start Playing!</h1>
+    </div>
+    <div class="players">
+        <div>
+            🥸
+            <h5 style="font-size: 30px;" id="pscore">Player: </h5>
+        </div>      
+        <div>
+            🤖
+            <h5 style="font-size: 30px;" id="cscore">Computer: </h5>
+        </div>
+    </div>
+
+    <div class="selection">
+        <button id="rock" name="rock" class="sign">✊</button>
+        <button id="paper" name="paper" class="sign">🖐</button>
+        <button id="scissor" name="scissor" class="sign">✌</button>
+    </div>
+
+
+
 </body>
 </html>
