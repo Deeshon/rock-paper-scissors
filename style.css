@@ -1,0 +1,40 @@
+.screen {
+    width: fit-content;
+    margin-left: 500px;
+    text-align: center;
+}
+
+
+.header {
+    background-color: gray;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sign {
+    width:250px;
+    height:200px;
+    font-size: 100px;
+}
+
+.selection {
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-bottom: 100px;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.players {
+    justify-content: space-between;
+    display: flex;
+    font-size: 100px;
+    margin-left: 30%;
+    max-width: 500px;
+}
